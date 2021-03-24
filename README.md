@@ -1,0 +1,4 @@
+# LSB-Image-Steganography
+A Dual-Layer Security of Data using LSB Image Steganography Method and AES Encryption Algorithm
+
+The technique used in this project works on the principle that the human eye cannot differentiate among pixels unless the difference in the RGB values of the pixels is significant. One byte of data consists of 8 bits - eight digits of either 0 or 1, e.g. 00011010. If this byte represents the colour of a pixel in an image, we could change the rightmost digit and only very imperceptibly change the colour of that pixel. Hence the data which is to be encrypted can be encoded in the least significant bits of a pixel of an image, so the overall image does not change significantly, and hence the message can be transferred undetected. The least significant bits can be extracted later for decryption. Further, AES is used to encrypt/decrypt the data before using LSB steganography for enhanced security.
